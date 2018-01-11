@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Sahabat Haq</string>
+    <string name="emailFieldHint">Your Email</string>
+    <string name="passFieldHint">Password</string>
+    <string name="loginButtonText">Login</string>
+    <string name="phoneFieldHint">Phone Number</string>
+    <string name="dontHaveAccount">Don\'t have account yet?</string>
+    <string name="addAccount">Create Account</string>
+    <string name="titleKelas">Kelas</string>
+    <string name="namaKelas">Abu Bakr As Shidiq</string>
+    <string name="warnaTim">Tim Hijau</string>
+</resources>

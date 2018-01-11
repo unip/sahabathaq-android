@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.widget.TextView;
+import android.support.v7.widget.Toolbar;
 
 public class KelasSetoran extends AppCompatActivity {
 
@@ -17,6 +18,12 @@ public class KelasSetoran extends AppCompatActivity {
         TextView txt = (TextView) findViewById(R.id.namaKelas);
         Typeface font = Typeface.createFromAsset(getAssets(), "fonts/cinzel-bold.ttf");
         txt.setTypeface(font);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+
+
     }
 
     //Menu options kelas setoran
